@@ -1,0 +1,38 @@
+.contact-me-part {
+  color: #fff;
+}
+.relative-bg {
+  clip-path: polygon(0 5%, 100% 14%, 100% 80%, 0 96%);
+  background: #1f2235;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -4;
+}
+.contact-me-card {
+  background: #1c1c1c;
+  width: 90%;
+  height: 500%;
+  box-shadow: 10px 10px 63px 4px rgb(243 240 240);
+  margin-inline: auto;
+}
+.get-in-touch {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: 700;
+}
+.input-groups {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.contact-inner-part {
+  padding-top: 118px;
+}
+.card-contact-right {
+  background-color: rgb(0, 7, 61);
+  box-shadow: 10px 3px 33px 4px rgb(243 240 240);
+  border-radius: 20px;
+  padding: 24px;
+}

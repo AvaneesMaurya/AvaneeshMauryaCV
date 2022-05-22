@@ -1,0 +1,54 @@
+.testmonials-card {
+  border-radius: 50px 20px 50px 0px;
+  width: 98%;
+  height: 200px;
+  margin-bottom: 40px;
+  align-items: center;
+  border: 2px solid #1f2235;
+  background: #1f2235;
+  transition: all 0.3s ease-in-out;
+}
+.testmonials-icons-card {
+  margin-top: 10px;
+  color: var(--dark-orange);
+  font-size: 28px;
+  text-align: center;
+  line-height: 55px;
+  border: 2px solid var(--dark-orange);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.description {
+  color: rgb(255, 255, 255);
+  font-family: 'Ubuntu';
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+.name {
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Ubuntu';
+  color: #ffffff;
+}
+.testmonials-card:hover {
+  border: 2px solid var(--dark-orange);
+}
+.mx5 {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+@media all and (max-width: 428px) {
+  .mx5 {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+@media all and (max-width: 322px) {
+  .mx5 {
+    margin-left: 0.2rem !important;
+    margin-right: 0.2rem !important;
+  }
+}

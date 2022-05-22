@@ -1,0 +1,120 @@
+.about-me-text {
+  font-family: 'Ubuntu';
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.why-text-sub {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+.aboutme-inside {
+  width: 90%;
+  margin-inline: auto;
+}
+.some-text-about-me {
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+}
+.few-highlights {
+  font-family: 'Ubuntu';
+  padding-block: 12px;
+}
+.few-text {
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.few-list {
+  font-family: 'Ubuntu';
+  font-size: 1.3rem;
+}
+
+.counts {
+  padding: 20px 0 60px;
+  width: 90%;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-image: url('../../assets/home/bg.jpg');
+  /* background: rgba(41, 40, 40, 0.08); */
+  color: white;
+}
+
+.counts .count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  /* background-image: url('../../assets/home/bg.jpg'); */
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  color: var(--header-hamburger-background);
+  border-radius: 50px;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+@media all and (max-width: 1024px) {
+  .about-me-text {
+    font-size: 2.5rem;
+  }
+  .why-text-sub {
+    font-size: 1rem;
+  }
+  .about-me-img {
+    margin-top: 50px !important;
+    width: 350px;
+    height: 350px;
+  }
+  .some-text-about-me {
+    /* font-weight: 600; */
+    font-size: 1rem;
+    opacity: 0.8;
+    text-align: justify;
+  }
+  .few-highlights {
+    padding-block: 12px;
+  }
+  .few-list {
+    font-size: 1rem;
+  }
+  .few-text {
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+  }
+  .counts {
+    padding: 0px 0 60px;
+  }
+}
+@media all and (max-width: 321px) {
+  .about-me-img {
+    width: 310px;
+    height: 310px;
+  }
+}

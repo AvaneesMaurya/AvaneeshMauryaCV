@@ -1,0 +1,138 @@
+.resume-options-items {
+  width: 1%;
+  transition: all 0.3s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.resume-options-items:hover {
+  width: 100%;
+  background-image: url('../../assets/home/bg.jpg');
+  color: #fff;
+}
+.icons-span {
+  margin-block: 24px;
+  margin-inline: 24px;
+}
+.selected {
+  width: 100%;
+  background-image: url('../../assets/home/bg.jpg');
+  color: #fff;
+}
+.bg-new {
+  background-image: url('../../assets/home/bg.jpg');
+}
+.resume-outer-section {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  /* background: #1f2235; */
+}
+.resume-new-section {
+  width: 94%;
+  margin-inline: auto;
+}
+
+.university-name {
+  font-family: 'ubuntu';
+  color: var(--dark-orange);
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.university-degree {
+  font-family: 'ubuntu';
+  color: #1c1c1c;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.company-name {
+  font-family: 'ubuntu';
+  color: #1c1c1c;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.description-postion {
+  color: #1c1c1c;
+}
+.postion {
+  color: #1c1c1c;
+}
+.progress-some {
+  background: red;
+  height: 20px;
+  width: 260px;
+}
+.progress-new {
+  background: #1c1c1c;
+  height: 20px;
+}
+.language {
+  font-family: 'ubuntu';
+  color: #1c1c1c;
+  font-size: 1.5rem;
+  text-decoration: capitalize;
+}
+
+/*Interests css*/
+.interests .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #1c1c1c;
+  background-image: url('../../assets/home/bg.jpg');
+  transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.interests .icon-box h3 {
+  font-family: 'ubuntu';
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.interests .icon-box:hover {
+  border: 1px solid var(--dark-orange);
+}
+@media all and (max-width: 768px) and (min-width: 426px) {
+  .resume-right-section {
+    height: 400px;
+    overflow-x: hidden;
+  }
+}
+@media all and (max-width: 768px) {
+  .university-name {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .university-degree {
+    font-size: 0.6rem;
+  }
+
+  .btn {
+    width: 120px;
+  }
+}
+@media all and (max-width: 321px) {
+  .btn {
+    width: 80px;
+  }
+}
