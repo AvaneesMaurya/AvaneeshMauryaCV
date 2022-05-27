@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AvaneeshMauryaCV/static/css/main.0990eb75.css",
-    "main.js": "/AvaneeshMauryaCV/static/js/main.3e026aa0.js",
+    "main.css": "/AvaneeshMauryaCV/static/css/main.7368e635.css",
+    "main.js": "/AvaneeshMauryaCV/static/js/main.9c5e0e45.js",
     "static/js/787.1ed0c42c.chunk.js": "/AvaneeshMauryaCV/static/js/787.1ed0c42c.chunk.js",
     "static/media/ME1.jpg": "/AvaneeshMauryaCV/static/media/ME1.b69b5c614b6d798bbc5f.jpg",
     "static/media/Poppins-Thin.ttf": "/AvaneeshMauryaCV/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -14,12 +14,12 @@
     "static/media/profilephoto.jpg": "/AvaneeshMauryaCV/static/media/profilephoto.b39a976ed980dd104759.jpg",
     "static/media/bg.jpg": "/AvaneeshMauryaCV/static/media/bg.d580cd375921d13ae60d.jpg",
     "index.html": "/AvaneeshMauryaCV/index.html",
-    "main.0990eb75.css.map": "/AvaneeshMauryaCV/static/css/main.0990eb75.css.map",
-    "main.3e026aa0.js.map": "/AvaneeshMauryaCV/static/js/main.3e026aa0.js.map",
+    "main.7368e635.css.map": "/AvaneeshMauryaCV/static/css/main.7368e635.css.map",
+    "main.9c5e0e45.js.map": "/AvaneeshMauryaCV/static/js/main.9c5e0e45.js.map",
     "787.1ed0c42c.chunk.js.map": "/AvaneeshMauryaCV/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0990eb75.css",
-    "static/js/main.3e026aa0.js"
+    "static/css/main.7368e635.css",
+    "static/js/main.9c5e0e45.js"
   ]
 }
