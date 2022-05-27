@@ -40,45 +40,48 @@
 }
 
 .counts {
-  padding: 20px 0 60px;
-  width: 90%;
+  padding: 20px 0 20px;
+  width: 98%;
 }
 
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background-image: url('../../assets/home/bg.jpg');
-  /* background: rgba(41, 40, 40, 0.08); */
-  color: white;
+.testmonials-card1 {
+  border-radius: 50px 20px 50px 0px;
+  width: 98%;
+  height: 170px;
+  margin-bottom: 40px;
+  align-items: center;
+  border: 2px solid #1f2235;
+  background: #1f2235;
+  transition: all 0.3s ease-in-out;
 }
-
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  /* background-image: url('../../assets/home/bg.jpg'); */
-  background: rgba(255, 255, 255, 0.1);
-  padding: 12px;
-  color: var(--header-hamburger-background);
-  border-radius: 50px;
+.testmonials-icons-card1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark-orange);
+  font-size: 28px;
+  border: 2px solid var(--dark-orange);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
 }
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
+.description1 {
   color: rgb(255, 255, 255);
+  font-family: 'Ubuntu';
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.7rem;
 }
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+.testmonials-card1:hover {
+  border: 2px solid var(--dark-orange);
+}
+.name1 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu';
+  color: #ffffff;
 }
 @media all and (max-width: 1024px) {
   .about-me-text {
@@ -109,7 +112,7 @@
     font-size: 1.2rem;
   }
   .counts {
-    padding: 0px 0 60px;
+    padding: 0px 0 20px;
   }
 }
 @media all and (max-width: 321px) {

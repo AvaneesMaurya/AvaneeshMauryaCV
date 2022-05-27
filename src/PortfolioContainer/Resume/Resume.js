@@ -5,6 +5,14 @@ import Programing from './Programing';
 import Education from './Education';
 import Projects from './Projects';
 import Interests from './Interests';
+import {
+  FaTasks,
+  FaLaptopCode,
+  FaBriefcase,
+  FaUserGraduate,
+} from 'react-icons/fa';
+import { IoColorPaletteSharp } from 'react-icons/io5';
+
 export default function Resume() {
   const [Education1, setEducation1] = useState(true);
   const [WorkHistrory1, setWorkHistrory1] = useState(false);
@@ -34,31 +42,31 @@ export default function Resume() {
               className='icons-span'
               onClick={() => ChangeState(setEducation1, true)}
             >
-              <i className='fas fa-user-graduate'></i>
+              <FaUserGraduate />
             </span>
             <span
               className='icons-span'
               onClick={() => ChangeState(setWorkHistrory1, true)}
             >
-              <i className='fas fa-briefcase'></i>
+              <FaBriefcase />
             </span>{' '}
             <span
               className='icons-span'
               onClick={() => ChangeState(setPrograming1, true)}
             >
-              <i className='fas fa-laptop-code'></i>
+              <FaLaptopCode />
             </span>{' '}
             <span
               className='icons-span'
               onClick={() => ChangeState(setProjects1, true)}
             >
-              <i className='fas fa-tasks'></i>
+              <FaTasks />
             </span>
             <span
               className='icons-span'
               onClick={() => ChangeState(setInterests1, true)}
             >
-              <i className='	fas fa-mug-hot'></i>
+              <IoColorPaletteSharp />
             </span>
           </div>
           <div className='d-flex flex-column'>

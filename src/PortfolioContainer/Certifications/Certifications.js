@@ -1,5 +1,6 @@
 import React from 'react';
 import './Certifications.css';
+import { FaAward } from 'react-icons/fa';
 export default function Certifications() {
   const CertificationsList = [
     {
@@ -39,7 +40,7 @@ export default function Certifications() {
             <div key={item.id} className='col-lg-4 col-sm-12 col-ms-6'>
               <div className='card shadow testmonials-card d-flex flex-column'>
                 <span className='testmonials-icons-card'>
-                  <i className='fas fa-award '></i>
+                  <FaAward />
                 </span>
                 <span className='description'>{item.CertificationsName}</span>
                 <span className='name'>{item.complete}</span>
