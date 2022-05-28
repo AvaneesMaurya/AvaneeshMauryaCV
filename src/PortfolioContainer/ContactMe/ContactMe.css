@@ -22,6 +22,9 @@
   font-size: 2rem;
   font-weight: 700;
 }
+.input-group1 {
+  flex-wrap: none !important;
+}
 .input-groups {
   border: none;
   border-radius: 10px;

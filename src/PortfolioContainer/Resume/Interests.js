@@ -1,4 +1,13 @@
 import './Resume.css';
+import { RiPlantFill } from 'react-icons/ri';
+import {
+  FaNewspaper,
+  FaAws,
+  FaLightbulb,
+  FaDatabase,
+  FaTheaterMasks,
+  FaMusic,
+} from 'react-icons/fa';
 export default function Interests() {
   return (
     <>
@@ -10,47 +19,86 @@ export default function Interests() {
         <div className='row'>
           <div className='col-lg-3 col-md-4'>
             <div className='icon-box'>
-              <i className='fas fa-newspaper' style={{ color: '#ffbb2c' }}></i>
+              <FaNewspaper
+                style={{
+                  color: '#ffbb2c',
+                  fontSize: '2.3rem',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Research</h3>
             </div>
           </div>
 
           <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
             <div className='icon-box'>
-              <i className='fab fa-aws' style={{ color: '#5578ff' }}></i>
+              <FaAws
+                style={{
+                  color: '#5578ff',
+                  fontSize: '2.3rem ',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Cloud</h3>
             </div>
           </div>
           <div className='col-lg-3 col-md-4 mt-4 mt-md-0'>
             <div className='icon-box'>
-              <i className='fas fa-lightbulb' style={{ color: '#e80368' }}></i>
+              <FaLightbulb
+                style={{
+                  color: '#e80368',
+                  fontSize: '2.3rem',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Problem Solving</h3>
             </div>
           </div>
           <div className='col-lg-3 col-md-4 mt-4 mt-lg-0'>
             <div className='icon-box'>
-              <i className='fas fa-database' style={{ color: '#e361ff' }}></i>
+              <FaDatabase
+                style={{
+                  color: '#e361ff',
+                  fontSize: '2.3rem',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Database</h3>
             </div>
           </div>
           <div className='col-lg-3 col-md-4 mt-4'>
             <div className='icon-box'>
-              <i className='fas fa-seedling' style={{ color: '#47aeff' }}></i>
+              <RiPlantFill
+                style={{
+                  color: '#47aeff',
+                  fontSize: '2.3rem',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Gardening</h3>
             </div>
           </div>
           <div className='col-lg-3 col-md-4 mt-4'>
             <div className='icon-box'>
-              <i
-                className='fas fa-theater-masks'
-                style={{ color: '#ffa76e' }}
-              ></i>
+              <FaTheaterMasks
+                style={{
+                  color: '#ffa76e',
+                  fontSize: '2.3rem',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Movies</h3>
             </div>
           </div>
           <div className='col-lg-3 col-md-4 mt-4'>
             <div className='icon-box'>
-              <i className='fas fa-music' style={{ color: '#11dbcf' }}></i>
+              <FaMusic
+                style={{
+                  color: '#11dbcf',
+                  fontSize: '2.3rem',
+                  marginRight: '0.5rem',
+                }}
+              />
               <h3>Music</h3>
             </div>
           </div>

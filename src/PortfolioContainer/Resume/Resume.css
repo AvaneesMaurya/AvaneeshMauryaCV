@@ -112,9 +112,10 @@
 .interests .icon-box:hover {
   border: 1px solid var(--dark-orange);
 }
-@media all and (max-width: 768px) and (min-width: 426px) {
+
+@media all and (max-width: 2900px) and (min-width: 426px) {
   .resume-right-section {
-    height: 400px;
+    height: 360px;
     overflow-x: hidden;
   }
 }

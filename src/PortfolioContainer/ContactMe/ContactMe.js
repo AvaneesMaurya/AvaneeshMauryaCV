@@ -55,7 +55,7 @@ export default function ContactMe() {
               onSubmit={sendEmail}
               className='d-flex flex-column card-contact-right'
             >
-              <div className=' input-group my-3 d-flex flex-column'>
+              <div className='my-3 d-flex flex-column '>
                 <label>Name</label>
                 <input
                   value={name}
@@ -65,7 +65,7 @@ export default function ContactMe() {
                   className='input-groups'
                 />
               </div>
-              <div className=' input-group my-3 d-flex flex-column'>
+              <div className=' my-3 d-flex flex-column'>
                 <label>Email</label>
                 <input
                   value={email}
@@ -75,7 +75,7 @@ export default function ContactMe() {
                   className='input-groups'
                 />
               </div>
-              <div className=' input-group my-3 d-flex flex-column'>
+              <div className=' my-3 d-flex flex-column'>
                 <label>Message</label>
                 <textarea
                   value={message}
@@ -85,7 +85,7 @@ export default function ContactMe() {
                   className='input-groups'
                 />
               </div>
-              <div className=' input-group my-3 d-flex flex-column'>
+              <div className=' my-3 d-flex flex-column'>
                 <input
                   type='submit'
                   value='Send Message'
